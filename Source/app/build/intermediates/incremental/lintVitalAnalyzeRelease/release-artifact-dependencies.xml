@@ -1,2 +1,14 @@
 <dependencies>
+  <compile
+      roots="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/face-V1.0.jar:unspecified@jar,__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/hidl-base.jar:unspecified@jar,__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/framework-classes.jar:unspecified@jar">
+    <dependency
+        name="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/face-V1.0.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/face-V1.0.jar"/>
+    <dependency
+        name="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/hidl-base.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/hidl-base.jar"/>
+    <dependency
+        name="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/framework-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:/home/yamada/CODE/Yamada-OplusFace/Source/app/libs/framework-classes.jar"/>
+  </compile>
 </dependencies>

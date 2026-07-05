@@ -77,6 +77,11 @@ public class FaceUnlockService {
         }, "FaceUnlockService-Main").start();
     }
 
+    public void initNoSocket() {
+        mFacePP.init();
+        if (DEBUG) Log.i(TAG, "FaceUnlockService ready for Java HAL Daemon");
+    }
+
     public void run() {
         mFacePP.init();
         if (DEBUG) Log.i(TAG, "FaceUnlockService ready, connecting to HAL socket…");
@@ -160,7 +165,15 @@ public class FaceUnlockService {
         }
     }
 
-    private boolean runAuth() {
+    public void doCancel() {
+        mCancelled = true;
+    }
+
+    public void doRemove() {
+        mFacePP.deleteFeature(1);
+    }
+
+    public boolean runAuth() {
         if (DEBUG) Log.i(TAG, "Starting authentication");
         final CountDownLatch latch  = new CountDownLatch(1);
         final int[]          result = {-1};
@@ -194,7 +207,7 @@ public class FaceUnlockService {
         return result[0] == 1;
     }
 
-    private boolean runEnroll() {
+    public boolean runEnroll() {
         if (DEBUG) Log.i(TAG, "Starting enrollment");
         final CountDownLatch latch  = new CountDownLatch(1);
         final int[]          result = {-1};

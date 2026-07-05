@@ -27,3 +27,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
+
+dependencies {
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+}
