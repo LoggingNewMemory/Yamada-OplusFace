@@ -10,18 +10,18 @@ echo "Creating OUT folder structure..."
 rm -rf OUT
 mkdir -p OUT/system/system/framework
 mkdir -p OUT/system/system/etc/init
-mkdir -p OUT/system/vendor/bin/hw
+mkdir -p OUT/vendor/bin/hw
 
 echo "Copying Java HAL Daemon..."
 cp Source/app/build/outputs/apk/release/app-release-unsigned.apk OUT/system/system/framework/yamada-face-hal.jar
 
 echo "Creating startup script..."
-cat << 'EOF' > OUT/system/vendor/bin/hw/yamada-oplusface
+cat << 'EOF' > OUT/vendor/bin/hw/yamada-oplusface
 #!/system/bin/sh
-export CLASSPATH=/system/framework/yamada-face-hal.jar
+export CLASSPATH=/system/framework/yamada-face-hal.jar:/system/framework/android.hardware.biometrics.face-V1.0-java.jar:/system/framework/android.hidl.base-V1.0-java.jar
 exec /system/bin/app_process /system/bin ax.nd.faceunlock.hal.FaceHalDaemon
 EOF
-chmod +x OUT/system/vendor/bin/hw/yamada-oplusface
+chmod +x OUT/vendor/bin/hw/yamada-oplusface
 
 echo "Creating init.rc file..."
 cat << 'EOF' > OUT/system/system/etc/init/yamada-face-daemon.rc
@@ -32,9 +32,8 @@ service vendor.face-hal-1-0 /vendor/bin/hw/yamada-oplusface
     seclabel u:r:hal_face_default:s0
 EOF
 
-# Assuming the Megvii library is already in the ROM or provided separately
-# mkdir -p OUT/system/system/lib64
-# cp Source/app/src/main/jniLibs/arm64-v8a/libMegviiFacepp-0.5.2.so OUT/system/system/lib64/
+echo "Copying PreCompiled resources into OUT..."
+cp -r PreCompiled/* OUT/
 
 echo "---------------------------------------------------"
 echo "Build complete! The OUT folder is ready for MIO Kitchen."
