@@ -1,0 +1,20 @@
+cc_binary {
+    name: "yamada-oplusface",
+    defaults: ["hidl_defaults"],
+    relative_install_path: "hw",
+    init_rc: ["yamada-oplusface.rc"],
+    vintf_fragments: ["yamada-oplusface.xml"],
+    vendor: true,
+    srcs: [
+        "YamadaOplusFace.cpp",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "libhidlbase",
+        "libutils",
+        "liblog",
+        "libcutils",
+        "android.hardware.biometrics.face@1.0",
+    ],
+}

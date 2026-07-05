@@ -1,0 +1,10 @@
+on post-fs-data
+    mkdir /data/vendor_de/0/facedata 0770 system system encryption=None
+    mkdir /data/system/facedata_system 0770 system system
+
+service vendor.face-hal-1-0 /vendor/bin/hw/yamada-oplusface
+    interface android.hardware.biometrics.face@1.0::IBiometricsFace default
+    class hal
+    user root
+    group system input graphics camera
+    capabilities SYS_NICE

@@ -1,0 +1,60 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:6:5-85
+	android:required
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:6:58-82
+	android:name
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:7:5-95
+	android:required
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:7:68-92
+	android:name
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:7:19-67
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:9:22-75
+application
+ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:11:5-16:19
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:11:5-16:19
+	android:extractNativeLibs
+		INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:13:9-35
+	android:persistent
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:14:9-34
+	android:allowBackup
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:12:9-36
+	android:directBootAware
+		ADDED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:15:9-39
+uses-sdk
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml

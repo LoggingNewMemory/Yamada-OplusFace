@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ax.nd.faceunlock"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:5:5-65
+11-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:5:22-62
+12
+13    <uses-feature
+13-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:6:5-85
+14        android:name="android.hardware.camera"
+14-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:6:19-57
+15        android:required="false" />
+15-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:6:58-82
+16    <uses-feature
+16-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:7:5-95
+17        android:name="android.hardware.camera.autofocus"
+17-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:7:19-67
+18        android:required="false" />
+18-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:7:68-92
+19
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:8:5-81
+20-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:8:22-78
+21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+21-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:9:5-78
+21-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:9:22-75
+22
+23    <application
+23-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:11:5-16:19
+24        android:allowBackup="false"
+24-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:12:9-36
+25        android:directBootAware="true"
+25-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:15:9-39
+26        android:extractNativeLibs="false"
+27        android:label="FaceUnlock"
+27-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:13:9-35
+28        android:persistent="true" >
+28-->/home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/AndroidManifest.xml:14:9-34
+29    </application>
+30
+31</manifest>
