@@ -40,11 +40,13 @@ public class FaceHalDaemon extends IBiometricsFace.Stub {
             ActivityThread at = ActivityThread.systemMain();
             Context context = at.getSystemContext();
             
-            FaceHalDaemon daemon = new FaceHalDaemon(context);
-            daemon.registerAsService("default");
-            Log.i(TAG, "Successfully registered android.hardware.biometrics.face@1.0::IBiometricsFace/default");
+            FaceUnlockService service = new FaceUnlockService(context);
+            service.run(); // Start the LocalSocket client/server
             
-            HwBinder.joinRpcThreadpool();
+            Log.i(TAG, "Java Daemon is running in Socket Mode. Waiting for patched services.jar to connect...");
+            
+            // Keep the process alive
+            Looper.loop();
         } catch (Exception e) {
             Log.e(TAG, "Daemon error", e);
         }
