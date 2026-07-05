@@ -57,6 +57,8 @@ public class FaceUnlockService {
 
         new Thread(() -> {
             try {
+                // Wait for system_server to fully boot before accessing PackageManager
+                Thread.sleep(15000);
                 if (DEBUG) Log.i(TAG, "Initializing Socket-based FaceUnlockService...");
 
                 Context spoofedContext = context;

@@ -1,8 +1,8 @@
 <variant
     name="release"
     package="ax.nd.faceunlock"
-    minSdkVersion="31"
-    targetSdkVersion="36.0"
+    minSdkVersion="30"
+    targetSdkVersion="33"
     mergedManifest="build/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
     manifestMergeReport="build/outputs/logs/manifest-merger-release-report.txt"
     proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.12.3:proguard-rules.pro"
@@ -26,6 +26,6 @@
       applicationId="ax.nd.faceunlock"
       generatedSourceFolders="build/generated/ap_generated_sources/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
-      desugaredMethodsFiles="/home/yamada/.gradle/caches/8.13/transforms/1cc3f70400bce4ca90e0a83483a981ce/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/yamada/.gradle/caches/8.13/transforms/e61975604eb7a459c19eaf9d6f7e1761/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

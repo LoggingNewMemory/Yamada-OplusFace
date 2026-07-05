@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'ax.nd.faceunlock'
-    compileSdk 36
+    compileSdk 30
 
     defaultConfig {
         applicationId "ax.nd.faceunlock"
-        minSdk 31
-        targetSdk 36
+        minSdk 30
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -23,7 +23,7 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
