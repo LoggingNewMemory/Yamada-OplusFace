@@ -1,7 +1,0 @@
-ax.nd.faceunlock.app-pngs-0 /home/yamada/CODE/Yamada-OplusFace/Source/app/build/generated/res/pngs/release
-ax.nd.faceunlock.app-resValues-1 /home/yamada/CODE/Yamada-OplusFace/Source/app/build/generated/res/resValues/release
-ax.nd.faceunlock.app-packageReleaseResources-2 /home/yamada/CODE/Yamada-OplusFace/Source/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
-ax.nd.faceunlock.app-packageReleaseResources-3 /home/yamada/CODE/Yamada-OplusFace/Source/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
-ax.nd.faceunlock.app-release-4 /home/yamada/CODE/Yamada-OplusFace/Source/app/build/intermediates/merged_res/release/mergeReleaseResources
-ax.nd.faceunlock.app-main-5 /home/yamada/CODE/Yamada-OplusFace/Source/app/src/main/res
-ax.nd.faceunlock.app-release-6 /home/yamada/CODE/Yamada-OplusFace/Source/app/src/release/res

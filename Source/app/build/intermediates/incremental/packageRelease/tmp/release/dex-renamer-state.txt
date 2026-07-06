@@ -1,4 +1,0 @@
-#Sun Jul 05 21:18:53 WIB 2026
-base.0=/home/yamada/CODE/Yamada-OplusFace/Source/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

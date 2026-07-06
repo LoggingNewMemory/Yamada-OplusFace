@@ -1,5 +1,0 @@
-
-# add for face data
-on post-fs-data
-    mkdir /data/system/facedata_system 0700 system system
-    restorecon /data/system/facedata_system
