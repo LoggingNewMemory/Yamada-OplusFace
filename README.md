@@ -1,5 +1,5 @@
-# Templates
-Templates
+Credits:
+- LazyBones LZY
 
 Support Me: <br />
 https://sociabuzz.com/kanagawa_yamada/tribe (Global) <br />
